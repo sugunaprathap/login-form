@@ -1,0 +1,85 @@
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #050404a0;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width:100%;
+    height: 100vh;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20230411/pngtree-nature-forest-sun-ecology-image_2256183.jpg);
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color: #0c09099e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2cm;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration:none ;
+    color: #070202a7;
+    padding: 10px,20px;
+    font-size: 20px;
+}
+.menu a:hover{
+    border:1px solid rgba(225, 20, 20, 0.788);
+    background: transparent;
+}
+.register a{
+    text-decoration:none ;
+    color: #040101a2;
+    padding: 10px,20px;
+    font-size: 20px;
+    border-radius: 4px;
+    background: rgba(225, 20, 20, 0.788);
+}
+.register a:hover{
+    border: 1px solid rgba(225, 20,20, 0.788);
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width:650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #160707c4;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 3.5cm;
+}
+.h-text a{
+    text-align: none;
+    background: rgba(225, 20, 20, 0.788);
+    padding: 10px,20px;
+    font-size: 40px;
+    border-radius: 8px;
+    color: rgba(12, 3, 3, 0.678);
+    letter-spacing: 5px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    border: 1px solid rgba(225, 20, 20, 0.788);
+    background: transparent;
+}
+
+
+
+
+
